@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Buffalo News</title>
+    <link rel="stylesheet" 
+        href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" 
+        integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" 
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/main.css">
+    <!-- <link rel="icon" href="favicon.ico" type="image/x-icon" /> -->
+</head>
+<body>
+    <h1>[BN] The Buffalo News</h1>
+    <h3>Article Ideas</h3>
+    <table class="pure-table pure-table-bordered">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Message</th>
+                <th>Author</th>
+            </tr>
+        </thead>
+        <tbody id="articleBody">
+            <tr>
+                <td>Anchovy Invasion at the Buffalo Harbor</td>
+                <td>Anchovies swarmed Buffalo's downtown harbor after gills adapted to land survival. Their colonies are slowly learning and becoming sentient. There have been reports of anchovies looting stores and littering downtown. </td>
+                <td>Smitty Werbenjagermanjensen</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <form class="pure-form" onsubmit="event.preventDefault(); displayFormValues();">
+        <fieldset class="pure-group">
+            <input id="author" type="text" class="pure-input-1-2" placeholder="Author" required>
+        </fieldset>
+        <fieldset class="pure-group">
+            <input id="title" type="text" class="pure-input-1-2" placeholder="Title" required>
+            <textarea id="message" class="pure-input-1-2" placeholder="Message" ></textarea>
+        </fieldset>
+        <button id = "btn" name="btn" class="pure-button pure-input-1-2 pure-button-primary">Submit</button>
+    </form>
+    
+    <script src="/js/main.js"></script>
+</body>
+</html>

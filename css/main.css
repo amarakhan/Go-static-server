@@ -1,0 +1,55 @@
+/* *{
+    border: 1px solid red;
+} */
+
+body{
+    padding: 1vh 5vw;
+}
+
+h1{
+    color: rgb(17, 17, 72);
+}
+
+h3{
+    font-weight: lighter;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: .25em;
+}
+
+
+/* styling the form */
+form{
+    display: inline-block;
+    width: 50vw;
+    min-width: 300px;
+    margin-top: 2.5vh;
+}
+
+input{
+    width: 100%!important;
+}
+
+textarea{
+    width: 100%!important;
+}
+
+button{
+    background-color: rgba(17, 17, 72, 0.934)!important;
+}
+
+button:hover{
+    background-color: rgb(17, 17, 72)!important;
+    -webkit-box-shadow: 2px 3px 8px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 3px 8px 0px rgba(0,0,0,0.75);
+    box-shadow: 2px 3px 8px 0px rgba(0,0,0,0.75);
+}
+
+thead{
+    background-color: rgb(17, 17, 72)!important;
+    color: white!important;
+}
+
+tbody > tr > td:first-of-type{
+    font-style: italic;
+}
